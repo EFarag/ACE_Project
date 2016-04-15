@@ -6,6 +6,6 @@ class HomePage():
 
 
     def get_login_name(self):
-        lable = self.driver.find_element(*HomePage.LoginName_LBL).text
-        return lable
+        lablel = self.driver.find_element(*HomePage.LoginName_LBL).text
+        return lablel
 
