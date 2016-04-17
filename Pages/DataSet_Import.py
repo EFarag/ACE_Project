@@ -25,7 +25,7 @@ class Import_Password():
   def Password(self,password):
     self.driver.find_element(*Import_Password.dataset_password).send_keys('P@ssw0rd')
     self.driver.find_element(*Import_Password.dataset_submit).click()
-    self.driver.implicitly_wait(20)
+    #self.driver.implicitly_wait(20)
 
 
 class Upload():
@@ -33,7 +33,8 @@ class Upload():
  SubmitButton = (By.XPATH,"/html/body/div[6]/div[3]/div/button[1]")
 
  def File_Upload(self,location):
-  self.driver.find_element(*Upload.fileUpload).send_keys('C:/VP Only 4DE7.mgr')
-  self.driver.find_element(*Upload.SubmitButton).click()
+   self.driver.implicitly_wait(20)
+   self.driver.find_element(*Upload.fileUpload).send_keys('C:\VP Only 4DE7.mgr')
+   self.driver.find_element(*Upload.SubmitButton).click()
 
 

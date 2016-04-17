@@ -23,7 +23,7 @@ class LoginTest(BaseTestCase):
        Dataset.Dataset_link(self)
        Dataset_import.Import(self)
        Import_Password.Password(self,password='P@ssw0rd')
-       Upload.File_Upload(self,location='C:/VP Only 4DE7.mgr')
+       Upload.File_Upload(self,location='C:\VP Only 4DE7.mgr')
        sleep(3)
 
 
