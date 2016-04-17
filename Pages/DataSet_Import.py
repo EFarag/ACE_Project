@@ -25,7 +25,7 @@ class Import_Password():
   def Password(self,password):
     self.driver.find_element(*Import_Password.dataset_password).send_keys('P@ssw0rd')
     self.driver.find_element(*Import_Password.dataset_submit).click()
-    self.drive.implicitly_wait(30)
+    self.driver.implicitly_wait(20)
 
 
 class Upload():
