@@ -18,7 +18,7 @@ from time import sleep
 class LoginTest(BaseTestCase):
 
 
-   @data(*read_excel.get_data_from_excel('C:/Users/efarrag/PycharmProjects/ACE_Project/ACE_Project/Data/login_data.xlsx','Datasets'))
+   @data(*read_excel.get_data_from_excel('C:/Users/aabdelhamid/PycharmProjects/ACE_Project-master/Data/login_data.xlsx','Datasets'))
    @unpack
    def test_Upload(self,url,code):
        LoginPage.login(self,'Administrator','P@ssw0rd')

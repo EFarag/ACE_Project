@@ -6,16 +6,18 @@ from Pages.HomePage import HomePage
 from Pages.LoginPage import LoginPage
 from BaseTestCases.BaseTestCase import BaseTestCase
 from DataSource.read_excel import read_excel
+from time import sleep
 
 
 @ddt
 class LoginTest(BaseTestCase):
 
 
-    @data(*read_excel.get_data_from_excel('C:/Users/aabdelhamid/Desktop/ACE_Automation001/ACE_Automation001/Data/login_data.xlsx','login'))
+    @data(*read_excel.get_data_from_excel('C:/Users/aabdelhamid/PycharmProjects/ACE_Project-master/Data/login_data.xlsx','login'))
     @unpack
     def test_login_with_valid_credentials(self,Username,Password,LoginName):
        LoginPage.login(self,Username,Password)
+       sleep(3);
        self.assertEqual(LoginName,HomePage.get_login_name(self))
        print(HomePage.get_login_name(self))
 
