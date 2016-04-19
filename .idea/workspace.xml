@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8605fd2e-c8e5-48a4-b6dd-c230bf2097ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/login_data.xlsx" afterPath="$PROJECT_DIR$/Data/login_data.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_CreateRole.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_ImportDataSet.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestCases/Create_Role.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCases/Create_Users.py" afterPath="$PROJECT_DIR$/TestCases/test_CreateUsers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/CreateRole.py" afterPath="$PROJECT_DIR$/Pages/CreateRole.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/DataSet_Import.py" afterPath="$PROJECT_DIR$/Pages/DataSet_Import.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/Import_DataSet.py" afterPath="$PROJECT_DIR$/TestCases/Import_DataSet.py" />
     </list>
@@ -38,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_Login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_Login.py">
+      <file leaf-file-name="test_CreateUsers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -50,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Create_Users.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/Create_Users.py">
+      <file leaf-file-name="test_Login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_Login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="124" selection-start-line="23" selection-start-column="124" selection-end-line="23" selection-end-column="124" />
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -72,23 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/UsersPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateRole.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/CreateRole.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -96,23 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSet_Import.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataSet_Import.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/DataSet_Import.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84875447">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Import_DataSet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/Import_DataSet.py">
+      <file leaf-file-name="test_CreateRole.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_CreateRole.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -126,6 +118,18 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_ImportDataSet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_ImportDataSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.85765123">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,12 +165,14 @@
         <option value="$PROJECT_DIR$/Automation/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/TestCases/test_Login.py" />
         <option value="$PROJECT_DIR$/TestCases/Create_Users.py" />
-        <option value="$PROJECT_DIR$/Pages/CreateRole.py" />
         <option value="$PROJECT_DIR$/TestCases/Create_Role.py" />
         <option value="$PROJECT_DIR$/Pages/HomePage.py" />
         <option value="$PROJECT_DIR$/DataSource/read_excel.py" />
         <option value="$PROJECT_DIR$/TestCases/Import_DataSet.py" />
         <option value="$PROJECT_DIR$/Pages/DataSet_Import.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_ImportDataSet.py" />
+        <option value="$PROJECT_DIR$/Pages/CreateRole.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_CreateRole.py" />
       </list>
     </option>
   </component>
@@ -314,8 +320,121 @@
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ACE_Automation001" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Import_DataSet">
-    <configuration default="false" name="Unittests in test_Login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Data/login_data.xlsx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCases/Create_Users.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCases/Import_DataSet.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCases/test_Login.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_CreateRole">
+    <configuration default="false" name="Unittests in test_CreateUsers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -325,7 +444,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_Login.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\efarrag\PycharmProjects\ACE_Project\ACE_Project\TestCases\test_CreateUsers.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -337,7 +456,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in Create_Users" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test_ImportDataSet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -347,7 +466,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/Create_Users.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\efarrag\PycharmProjects\ACE_Project\ACE_Project\TestCases\test_ImportDataSet.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -359,7 +478,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in Import_DataSet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test_ImportDataSet (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -369,7 +488,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/Import_DataSet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_ImportDataSet.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest LoginTest.test_Upload" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_ImportDataSet.py" />
+      <option name="CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="test_Upload" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_CreateRole" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_CreateRole.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -503,16 +666,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_Login" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Create_Users" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Import_DataSet" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_CreateUsers" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_ImportDataSet" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_ImportDataSet (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest LoginTest.test_Upload" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_CreateRole" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Import_DataSet" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Create_Users" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_Login" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_CreateRole" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_ImportDataSet (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest LoginTest.test_Upload" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_ImportDataSet" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_CreateUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -563,52 +730,58 @@
       <option name="project" value="LOCAL" />
       <updated>1460907706589</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Eman">
+      <created>1460912984403</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1460912984403</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 29m 37s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 29m 36s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 32m 37s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 33m 25s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 42m 28s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 36m 01s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 43m 26s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 38m 55s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 44m 13s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 44m 23s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 45m 41s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 50m 48s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 18h 53m 26s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 51m 24s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 19h 03m 52s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 53m 57s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 19h 04m 35s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_CreateRole - 2016.04.19 at 20h 55m 10s.xml">
+      <configuration name="Unittests in test_CreateRole" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Import_DataSet - 2016.04.17 at 19h 06m 53s.xml">
-      <configuration name="Unittests in Import_DataSet" configurationId="tests" />
+    <history-entry file="Unittests_in_test_ImportDataSet_(1) - 2016.04.19 at 20h 50m 36s.xml">
+      <configuration name="Unittests in test_ImportDataSet (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -662,7 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Create_Users.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
@@ -685,7 +858,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -705,12 +878,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Import_DataSet.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_ImportDataSet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
@@ -738,38 +911,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Create_Role.py">
+    <entry file="file://$PROJECT_DIR$/Pages/UsersPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/CreateRole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseTestCases/BaseTestCase.py">
+    <entry file="file://$PROJECT_DIR$/Automation/Test Results - Unittests_in_test_Login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,27 +940,17 @@
     <entry file="file://$PROJECT_DIR$/TestCases/test_Login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Create_Users.py">
+    <entry file="file://$PROJECT_DIR$/BaseTestCases/BaseTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="124" selection-start-line="23" selection-start-column="124" selection-end-line="23" selection-end-column="124" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/UsersPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -821,10 +967,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Import_DataSet.py">
+    <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -833,8 +987,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/DataSet_Import.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84875447">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/CreateRole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateRole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_ImportDataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85765123">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
