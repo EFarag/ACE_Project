@@ -13,7 +13,7 @@ from time import sleep
 class LoginTest(BaseTestCase):
 
 
-    @data(*read_excel.get_data_from_excel('C:/Users/aabdelhamid/PycharmProjects/ACE_Project-master/Data/login_data.xlsx','login'))
+    @data(*read_excel.get_data_from_excel('C:/Users/efarrag/PycharmProjects/ACE_Project/ACE_Project/Data/login_data.xlsx','login'))
     @unpack
     def test_login_with_valid_credentials(self,Username,Password,LoginName):
        LoginPage.login(self,Username,Password)
