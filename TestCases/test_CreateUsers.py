@@ -1,13 +1,13 @@
 import unittest
 from ddt import ddt,data,unpack
 from selenium import webdriver
-from Pages.HomePage import HomePage
-from Pages.LoginPage import LoginPage
-from BaseTestCases.BaseTestCase import BaseTestCase
-from Pages.UsersPage import UsersPage
+from ACE_Project.Pages.HomePage import HomePage
+from ACE_Project.Pages.LoginPage import LoginPage
+from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
+from ACE_Project.Pages.UsersPage import UsersPage
 from time import sleep
-from DataSource.read_excel import read_excel
-from Pages.UsersPage import Add_Users
+from ACE_Project.DataSource.read_excel import read_excel
+from ACE_Project.Pages.UsersPage import Add_Users
 
 
 @ddt

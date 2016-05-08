@@ -1,12 +1,12 @@
 import unittest
-from DataSource.read_excel import read_excel
+from ACE_Project.DataSource.read_excel import read_excel
 from ddt import ddt,data,unpack
-from Pages.LoginPage import LoginPage
-from BaseTestCases.BaseTestCase import BaseTestCase
-from Pages.CreateRole import RolesPage
-from Pages.CreateRole import Create
-from Pages.CreateRole import Role_Creation
-from Pages.CreateRole import Create_Role_MSG
+from ACE_Project.Pages.LoginPage import LoginPage
+from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
+from ACE_Project.Pages.CreateRole import RolesPage
+from ACE_Project.Pages.CreateRole import Create
+from ACE_Project.Pages.CreateRole import Role_Creation
+from ACE_Project.Pages.CreateRole import Create_Role_MSG
 from time import sleep
 
 
@@ -14,7 +14,7 @@ from time import sleep
 @ddt
 class Roles(BaseTestCase):
 
-   @data(*read_excel.get_data_from_excel('C:/Users/efarrag/PycharmProjects/ACE_Project/ACE_Project/Data/login_data.xlsx','Roles'))
+   @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/login_data.xlsx','Roles'))
    @unpack
    def test_Create_Roles(self,Role_name):
        LoginPage.login(self,'Administrator','P@ssw0rd')

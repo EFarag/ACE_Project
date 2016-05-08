@@ -2,10 +2,10 @@ import unittest
 
 from ddt import ddt,data,unpack
 from selenium import webdriver
-from Pages.HomePage import HomePage
-from Pages.LoginPage import LoginPage
-from BaseTestCases.BaseTestCase import BaseTestCase
-from DataSource.read_excel import read_excel
+from ACE_Project.Pages.HomePage import HomePage
+from ACE_Project.Pages.LoginPage import LoginPage
+from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
+from ACE_Project.DataSource.read_excel import read_excel
 from time import sleep
 
 
