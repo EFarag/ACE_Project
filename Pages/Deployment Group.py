@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 class DG_Create():
     CreateDG_btn = (By.ID,'ctl00_ctl00_MasterPageContent_cpv_lbCreate')
     def DG_create(self):
-        self.driver.find_element (*DG_Create.DG_btn).click()
+        self.driver.find_element (*DG_Create. CreateDG_btn).click()
 
 class DG_edit():
     Edit_btn=(By.XPATH,'/html/body/form/div[8]/section/section/div[1]/div[1]/a[2]')
