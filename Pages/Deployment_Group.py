@@ -2,6 +2,7 @@ import selenium
 import select
 from selenium.webdriver.common.by import By
 from time import sleep
+from selenium.webdriver.support.select import Select
 
 class DG_Create():
 
@@ -37,5 +38,6 @@ class DG_Create():
         sleep(3)
         self.driver.find_element(*DG_Create.DG_CancelBtn).click()
         sleep(10)
-        self.driver.find_element(*DG_Create.DG_DB).select_by_value('(local)\AGWII\CQI').click()
+        DGDB_DDL = Select(self.driver.find_element(*DG_Create.DG_DB))
+        DGDB_DDL.select_by_visible_text("(local)\AGWII\CQI")
         sleep(10)
