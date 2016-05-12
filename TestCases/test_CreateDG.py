@@ -17,5 +17,7 @@ class test_DG_Create (BaseTestCase):
         sleep(3)
         DG_Create.DG_DetailsPopup(self)
         sleep(10)
+        self.assertEqual(DG_Create.DG_toast(self),"Deployment Group Group1 has been created.")
+        print(DG_Create.DG_toast(self))
 if __name__ == '__main__':
     unittest.main()
