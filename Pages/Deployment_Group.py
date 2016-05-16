@@ -3,9 +3,9 @@ import select
 from selenium.webdriver.common.by import By
 from time import sleep
 from selenium.webdriver.support.select import Select
+from ddt import ddt,data,unpack
 import unittest
 class DG_Create():
-
     DG_screen= (By.CSS_SELECTOR,'html.firefox-42 body form#aspnetForm div#wrapper div.home-wrap div.sections div.home-section div#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_div_itemSection.item-section div.item-Wrap a#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_MenuLink.subsection')
     def DG_screenlink (self):
         self.driver.find_element(*DG_Create.DG_screen).click()
@@ -35,10 +35,10 @@ class DG_Create():
      Msg_TXT = self.driver.find_element(*DG_Create.DG_toast).text
      return Msg_TXT
 
-    def DG_DetailsPopup(self):
-        self.driver.find_element(*DG_Create.DG_Name).send_keys('Group1')
+    def DG_DetailsPopup(self,name,desc):
+        self.driver.find_element(*DG_Create.DG_Name).send_keys(name)
         sleep(3)
-        self.driver.find_element(*DG_Create.DG_Description).send_keys('Group1')
+        self.driver.find_element(*DG_Create.DG_Description).send_keys(desc)
         DGDB_DDL = Select(self.driver.find_element(*DG_Create.DG_DB))
         print(len(DGDB_DDL.options))
         DGDB_DDL.select_by_index(1)
