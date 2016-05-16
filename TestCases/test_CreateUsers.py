@@ -21,7 +21,7 @@ class LoginTest(BaseTestCase):
 
 
 
-    @data(*read_excel.get_data_from_excel('C:/Users/efarrag/PycharmProjects/ACE_Project/ACE_Project/Data/login_data.xlsx','users'))
+    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/login_data.xlsx','users'))
     @unpack
     def test_Enter_Users(self,first_name,last_name,user_name,password,re_password):
          LoginPage.login(self,'Administrator','P@ssw0rd')

@@ -27,24 +27,38 @@ class DG_Create():
     DG_DB=(By.ID,'ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseDropDownList')
     #DG_DB = (By.CSS_SELECTOR,'table tbody tr td select#ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseDropDownList')
     DG_SaveConBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[1]')
+
     DG_SaveCloseBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[2]')
     DG_CancelBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[3]')
-    DG_toast=(By.XPATH,'/html/body/div[5]')
+    DG_toast=(By.CSS_SELECTOR,'html.firefox-42 body div.blockUI.toast.blockPage')
+    Name_req=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_labelDeploymentGroupNameRequired')
 
-    def DG_toast(self):
-     self.driver.implicitly_wait(5)
-     Msg_TXT = self.driver.find_element(*DG_Create.DG_toast).text
-     return Msg_TXT
 
-    def DG_DetailsPopup(self,name,desc):
+    def DG_DetailsPopup(self,name,desc,index):
         self.driver.find_element(*DG_Create.DG_Name).send_keys(name)
         sleep(3)
         self.driver.find_element(*DG_Create.DG_Description).send_keys(desc)
         DGDB_DDL = Select(self.driver.find_element(*DG_Create.DG_DB))
         print(len(DGDB_DDL.options))
-        DGDB_DDL.select_by_index(1)
-
+        DGDB_DDL.select_by_index(index)
         sleep(3)
-        self.driver.find_element(*DG_Create.DG_SaveConBtn).click()
-        sleep(10)
+        self.driver.implicitly_wait(10)
+        self.driver.find_element(*DG_Create.DG_SaveCloseBtn).click()
+        self.driver.implicitly_wait(10)
 
+
+
+    def ReqName(self):
+        ReqName_error=self.driver.find_element(*DG_Create.Name_req).text
+        return ReqName_error
+
+    def Toast(self):
+        Label_TXT = self.driver.find_element(*DG_Create.DG_toast).text
+        return Label_TXT
+
+    #def DG_toast(self,DGname):
+     #self.driver.implicitly_wait(5)
+     #if self.driver.find_element(*DG_Create.DG_toast).text == "Deployment Group " + DGname + " has been created.":
+      #   return True
+     #print("Msh is " + Msg_TXT)
+     #return Msg_TXT
