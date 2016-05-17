@@ -10,6 +10,7 @@ class DG_Create():
     DG_screen= (By.CSS_SELECTOR,'html.firefox-42 body form#aspnetForm div#wrapper div.home-wrap div.sections div.home-section div#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_div_itemSection.item-section div.item-Wrap a#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_MenuLink.subsection')
     def DG_screenlink (self):
         self.driver.find_element(*DG_Create.DG_screen).click()
+
     CreateDG_btn = (By.ID,'ctl00_ctl00_MasterPageContent_cpv_lbCreate')
     def DG_createlink (self):
         self.driver.find_element (*DG_Create.CreateDG_btn).click()
@@ -31,20 +32,20 @@ class DG_Create():
     DG_CancelBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[3]')
     DG_toast=(By.XPATH,'/html/body/div[5]')
 
-    def DG_toast(self):
-     self.driver.implicitly_wait(5)
-     Msg_TXT = self.driver.find_element(*DG_Create.DG_toast).text
-     return Msg_TXT
 
     def DG_DetailsPopup(self,name,desc):
-        self.driver.find_element(*DG_Create.DG_Name).send_keys(name)
+        self.driver.find_element(*DG_Create.DG_Name.send_keys(name))
         sleep(3)
         self.driver.find_element(*DG_Create.DG_Description).send_keys(desc)
         DGDB_DDL = Select(self.driver.find_element(*DG_Create.DG_DB))
         print(len(DGDB_DDL.options))
         DGDB_DDL.select_by_index(1)
-
         sleep(3)
         self.driver.find_element(*DG_Create.DG_SaveConBtn).click()
         sleep(10)
 
+
+    def DG_toast(self):
+     self.driver.implicitly_wait(5)
+     Msg_TXT = self.driver.find_element(*DG_Create.DG_toast).text
+     return Msg_TXT

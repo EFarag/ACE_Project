@@ -1,16 +1,16 @@
 import unittest
-from ACE_Project.DataSource.read_excel import read_excel
+from   DataSource.read_excel import read_excel
 from ddt import ddt,data,unpack
-from ACE_Project.Pages.LoginPage import LoginPage
-from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
-from ACE_Project.Pages.DataSet_Import import Dataset
-from ACE_Project.Pages.DataSet_Import import Dataset_import
-from ACE_Project.Pages.DataSet_Import import Import_Password
-from ACE_Project.Pages.DataSet_Import import Upload
-from ACE_Project.Pages.DataSet_Import import ID_code
-from ACE_Project.Pages.DataSet_Import import Assert_Dataset
-from ACE_Project.Pages.DataSet_Import import Popup_Assertion
-from ACE_Project.Pages.DataSet_Import import Toast
+from   Pages.LoginPage import LoginPage
+from   BaseTestCases.BaseTestCase import BaseTestCase
+from   Pages.DataSet_Import import Dataset
+from   Pages.DataSet_Import import Dataset_import
+from   Pages.DataSet_Import import Import_Password
+from   Pages.DataSet_Import import Upload
+from   Pages.DataSet_Import import ID_code
+from   Pages.DataSet_Import import Assert_Dataset
+from   Pages.DataSet_Import import Popup_Assertion
+from   Pages.DataSet_Import import Toast
 from selenium.webdriver.common.by import By
 from time import sleep
 
@@ -20,7 +20,7 @@ from time import sleep
 class Datasets(BaseTestCase):
 
 
-   @data(*read_excel.get_data_from_excel('C:/Users/efarrag/PycharmProjects/ACE_Project/ACE_Project/Data/login_data.xlsx','Datasets'))
+   @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Datasets'))
    @unpack
    def test_Upload(self,url,code,DatasetName):
        LoginPage.login(self,'Administrator','P@ssw0rd')
