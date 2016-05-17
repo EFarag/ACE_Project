@@ -24,6 +24,7 @@ class test_DG_Create (BaseTestCase):
         #Actual_Msg = DG_Create.DG_toast
         sleep(3)
         self.assertEqual(DG_Create.Toast(self),"Deployment Group " + DGname + " has been created.")
+
         # self.assertTrue(DG_Create.DG_toast(DGname))
         #print(DG_Create.DG_toast)
 

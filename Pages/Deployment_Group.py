@@ -32,7 +32,8 @@ class DG_Create():
     DG_CancelBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[3]')
     DG_toast=(By.CSS_SELECTOR,'html.firefox-42 body div.blockUI.toast.blockPage')
     Name_req=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_labelDeploymentGroupNameRequired')
-
+    Desc_req=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_labelAreaDeploymentGroupDescriptionRequired')
+    DB_req=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseSelectionRequired')
 
     def DG_DetailsPopup(self,name,desc,index):
         self.driver.find_element(*DG_Create.DG_Name).send_keys(name)
@@ -46,11 +47,21 @@ class DG_Create():
         self.driver.find_element(*DG_Create.DG_SaveCloseBtn).click()
         self.driver.implicitly_wait(10)
 
-
+    def Cancel(self):
+        self.driver.find_element(*DG_Create.DG_CancelBtn).click()
 
     def ReqName(self):
         ReqName_error=self.driver.find_element(*DG_Create.Name_req).text
         return ReqName_error
+
+    def ReqDesc(self):
+        ReqDesc_error=self.driver.find_element(*DG_Create.Desc_req).text
+        return  ReqDesc_error
+
+    def ReqDB(self):
+        ReqDB_error=self.driver.find_element(*DG_Create.DB_req).text
+        return ReqDB_error
+
 
     def Toast(self):
         Label_TXT = self.driver.find_element(*DG_Create.DG_toast).text
