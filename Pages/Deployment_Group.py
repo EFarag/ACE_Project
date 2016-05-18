@@ -10,6 +10,8 @@ class DG_Create():
     DG_screen= (By.CSS_SELECTOR,'html.firefox-42 body form#aspnetForm div#wrapper div.home-wrap div.sections div.home-section div#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_div_itemSection.item-section div.item-Wrap a#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_MenuLink.subsection')
     def DG_screenlink (self):
         self.driver.find_element(*DG_Create.DG_screen).click()
+
+#Deployment group screen buttons
     CreateDG_btn = (By.ID,'ctl00_ctl00_MasterPageContent_cpv_lbCreate')
     def DG_createlink (self):
         self.driver.find_element (*DG_Create.CreateDG_btn).click()
@@ -22,12 +24,12 @@ class DG_Create():
     def  DG_delete(self):
         self.driver.find_element (*DG_Create.Delete_btn).click()
 
+#Deployment Group popup controls:
     DG_Name = (By.ID,'ctl00_ctl00_MasterPageContent_cpv_dialogTxtDeploymentGroupName')
     DG_Description=(By.ID,'ctl00_ctl00_MasterPageContent_cpv_dialogTxtAreaDeploymentGroupDescription')
     DG_DB=(By.ID,'ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseDropDownList')
     #DG_DB = (By.CSS_SELECTOR,'table tbody tr td select#ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseDropDownList')
     DG_SaveConBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[1]')
-
     DG_SaveCloseBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[2]')
     DG_CancelBtn=(By.XPATH,'/html/body/div[3]/div[3]/div/button[3]')
     DG_toast=(By.CSS_SELECTOR,'html.firefox-42 body div.blockUI.toast.blockPage')
@@ -62,7 +64,7 @@ class DG_Create():
         ReqDB_error=self.driver.find_element(*DG_Create.DB_req).text
         return ReqDB_error
 
-
+#DG Toast message
     def Toast(self):
         Label_TXT = self.driver.find_element(*DG_Create.DG_toast).text
         return Label_TXT
@@ -73,3 +75,18 @@ class DG_Create():
       #   return True
      #print("Msh is " + Msg_TXT)
      #return Msg_TXT
+
+#Create DG popup appearance assertion
+    def is_element_present(self,how,what):
+     try: self.driver.find_element(by=how,value=what)
+     except NoSuchElementException as e:return False
+     return True
+
+    def is_element_disabled(self,how,what):
+     try: self.driver.find_element(by=how,value=what)
+     except NoSuchElementException as e:return True
+     if True:
+         return False
+
+     else:
+         print('Test Failed')

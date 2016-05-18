@@ -1,10 +1,10 @@
 import unittest
-from DataSource.read_excel import read_excel
+from ACE_Project.DataSource.read_excel import read_excel
 from ddt import ddt,data,unpack
-from BaseTestCases.BaseTestCase import BaseTestCase
-from Pages.LoginPage import LoginPage
-from Pages.Pumps import Pumps
-from Pages.Pumps import Popup_Assertion
+from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
+from ACE_Project.Pages.LoginPage import LoginPage
+from ACE_Project.Pages.Pumps import Pumps
+from ACE_Project.Pages.Pumps import Popup_Assertion
 from time import sleep
 from selenium.webdriver.common.by import By
 import select
