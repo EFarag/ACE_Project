@@ -1,8 +1,8 @@
 import unittest
-from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
-from ACE_Project.Pages.Deployment_Group import DG_Create
-from ACE_Project.Pages.LoginPage import LoginPage
-from ACE_Project.DataSource.read_excel import read_excel
+from BaseTestCases.BaseTestCase import BaseTestCase
+from Pages.Deployment_Group import DG_Create
+from Pages.LoginPage import LoginPage
+from DataSource.read_excel import read_excel
 from time import sleep
 from ddt import ddt,data,unpack
 
@@ -10,7 +10,7 @@ from ddt import ddt,data,unpack
 @ddt
 class test_DG_Create (BaseTestCase):
 
-    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/login_data.xlsx','DG'))
+    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/Test_Data.xlsx','DG'))
     @unpack
 
     def test_Create_DG(self,DGname,DGdesc,DGDB):

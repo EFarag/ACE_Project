@@ -53,7 +53,7 @@ class test_PumpsImport(BaseTestCase):
 class test_InvalidPumpsImport(BaseTestCase):
 
 
-    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Pumps'))
+    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\Test_Data.xlsx','Pumps'))
     @unpack
     def test_FailedImport(self, url):
         LoginPage.login(self,'Administrator','P@ssw0rd')
