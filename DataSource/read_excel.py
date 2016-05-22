@@ -1,7 +1,7 @@
 import xlrd
 
 class read_excel():
-    def get_data_from_excel(file_path,sheet_name):
+    def get_data_from_excel(file_path, sheet_name, self=None):
         # create an empty ist to get data
         rows = []
         # open excel workboook

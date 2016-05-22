@@ -41,9 +41,13 @@ class test_PumpsImport(BaseTestCase):
         sleep(3)
         Pumps.Browse_File(self,url)
         sleep(5)
-        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.ID, what='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable'))
+        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable'))
+        Window_text = (By.CSS_SELECTOR, '#ctl00_ctl00_MasterPageContent_cpv_divLogResult')
+
+        Pumps
         Pumps.Ok_Import(self)
         sleep(10)
+
 
 @ddt #------------------------------ Negative Scenario Pump Importing ------------------------------------------------------------------------
 class test_InvalidPumpsImport(BaseTestCase):
@@ -60,7 +64,7 @@ class test_InvalidPumpsImport(BaseTestCase):
         sleep(3)
         Pumps.Browse_File(self,url)
         sleep(5)
-        #self.assertTrue(Popup_Assertion.is_element_present(self,how=By.ID, what='divImportPumpStatus'))
+        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.ID, what='divImportPumpStatus'))
         Pumps.Ok_Import(self)
         sleep(10)
 

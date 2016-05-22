@@ -1,6 +1,7 @@
 import selenium
 from selenium.webdriver.common.by import By
 
+# roles
 class RolesPage():
     Roles_BTN = (By.LINK_TEXT,'Roles')
 

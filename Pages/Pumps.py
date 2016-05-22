@@ -1,11 +1,9 @@
 import selenium
 import select
-
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from time import sleep
 from selenium.webdriver.support.select import Select
-
 from ddt import ddt,data,unpack
 import unittest
 
@@ -25,13 +23,18 @@ class Pumps():
         self.driver.find_element(*Pumps.Browse_btn).send_keys(Location)
         self.driver.find_element(*Pumps.Continue_btn).click()
 
-    OK_btn = (By.ID, 'ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only')
+    OK_btn = (By.XPATH, 'html/body/div[3]/div[3]/div/button[2]')
     def Ok_Import (self):
         self.driver.find_element(*Pumps.OK_btn).click()
 
     Cancel_btn = (By.XPATH, 'html/body/div[5]/div[3]/div/button[2]')
     def Cancel_Import (self):
         self.driver.find_element(*Pumps.Cancel_btn).click()
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Import_text = (By.__text_signature__, 'Number of pumps imported:0<br/><br/>Number of pumps<b>NOT</b>imported:8<br/><br/>')
+    def Toset (self, text):
+        text = self.driver.find_element(*Pumps.Import_text).text
+        return text
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -44,11 +47,9 @@ class Popup_Assertion():
     def is_element_disabled(self,how,what):
      try: self.driver.find_element(by=how,value=what)
      except NoSuchElementException as e:return True
-     if True:
-         return False
+     return False
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-     else:
-         print('Test Failed') #TimeoutError
 
 
 
