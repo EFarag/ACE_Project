@@ -1,3 +1,4 @@
+import action as action
 import selenium
 import select
 from selenium.webdriver.common.by import By
@@ -20,11 +21,17 @@ class DG_Create():
     def DG_edit(self):
         self.driver.find_element (*DG_Create.Edit_btn).click()
 
-    Delete_btn=(By.XPATH,'/html/body/form/div[8]/section/section/div[1]/div[1]/a[3]')
-    def  DG_delete(self):
-        self.driver.find_element (*DG_Create.Delete_btn).click()
+    Delete_btn=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_lbDelete')
+    def DG_delete(self):
+       self.driver.find_element(*DG_Create.Delete_btn).click()
+       # self.driver.find_element(*DG_Create.Delete_btn).click()
 
-#Deployment Group popup controls:
+
+    DG_Checkbox=(By.XPATH,'html/body/form/div[8]/section/section/div[2]/div[1]/div/table/tbody/tr[2]/td[1]/span[1]/img')
+    def DG_CB(self):
+        self.driver.find_element(*DG_Create.DG_Checkbox).click()
+        self.driver.implicitly_wait(10)
+#Create Deployment Group popup controls:
     DG_Name = (By.ID,'ctl00_ctl00_MasterPageContent_cpv_dialogTxtDeploymentGroupName')
     DG_Description=(By.ID,'ctl00_ctl00_MasterPageContent_cpv_dialogTxtAreaDeploymentGroupDescription')
     DG_DB=(By.ID,'ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseDropDownList')
@@ -37,6 +44,7 @@ class DG_Create():
     Desc_req=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_labelAreaDeploymentGroupDescriptionRequired')
     DB_req=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_cqiDatabaseSelectionRequired')
 
+#DG popup functions
     def DG_DetailsPopup(self,name,desc,index):
         self.driver.find_element(*DG_Create.DG_Name).send_keys(name)
         sleep(3)
@@ -46,8 +54,13 @@ class DG_Create():
         DGDB_DDL.select_by_index(index)
         sleep(3)
         self.driver.implicitly_wait(10)
+
+    def save_close_btn(self):
         self.driver.find_element(*DG_Create.DG_SaveCloseBtn).click()
         self.driver.implicitly_wait(10)
+
+    def save_cont_btn(self):
+        self.driver.find_element(*DG_Create.DG_SaveConBtn).click()
 
     def Cancel(self):
         self.driver.find_element(*DG_Create.DG_CancelBtn).click()
@@ -64,7 +77,7 @@ class DG_Create():
         ReqDB_error=self.driver.find_element(*DG_Create.DB_req).text
         return ReqDB_error
 
-#DG Toast message
+# DG Toast message
     def Toast(self):
         Label_TXT = self.driver.find_element(*DG_Create.DG_toast).text
         return Label_TXT
@@ -90,3 +103,22 @@ class DG_Create():
 
      else:
          print('Test Failed')
+
+
+#Deployment Group Delete popup
+    Delete_popup=(By.CSS_SELECTOR,'#popup-deleteDeploymentGroup')
+    Delete_warning=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_labelDeleteWarning')
+    Delete_con_btn=(By.CSS_SELECTOR,'.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.ui-state-focus')
+    Confirm_deletionPassword=(By.CSS_SELECTOR,'#ctl00_ctl00_MasterPageContent_cpv_tbPassword')
+    Delete_btn=(By.CSS_SELECTOR,'.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only')
+
+#This function is to return warning message before deployment group deletion inorder to assert it in the test case
+    def warning_delete(self):
+        Warning_text=self.driver.find_element(*DG_Create.Delete_warning).text
+        return Warning_text
+#This function is to click on continue deletion button
+    def complete_delete(self):
+        self.driver.find_element(*DG_Create.Delete_con_btn).click()
+        self.driver.find_element(*DG_Create.Confirm_deletionPasswordPassword).send_keys("P@ssw0rd")
+        self.driver.find_element(*DG_Create.Delete_btn).click()
+#This function is to set login password to complete deletion and then click on delete button

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8605fd2e-c8e5-48a4-b6dd-c230bf2097ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/InvalidPumpsFile.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/pumps.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pages/DG_details_Screen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_DGSave&amp;cont.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_DG_Delete.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ACE_Project.iml" afterPath="$PROJECT_DIR$/.idea/ACE_Project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseTestCases/BaseTestCase.py" afterPath="$PROJECT_DIR$/BaseTestCases/BaseTestCase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/Deployment_Group.py" afterPath="$PROJECT_DIR$/Pages/Deployment_Group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/Test_Pumps.py" afterPath="$PROJECT_DIR$/TestCases/Test_Pumps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" afterPath="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" />
     </list>
     <ignored path="ACE_Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,33 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test_Pumps.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCases/Test_Pumps.py">
+      <file leaf-file-name="test_DG_Delete.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65337765">
-              <caret line="51" column="142" selection-start-line="51" selection-start-column="142" selection-end-line="51" selection-end-column="142" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_CreateDG.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_CreateDG.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_DG_invalid_creation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_invalid_creation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.71869916">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -63,8 +48,42 @@
         <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webelement.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_DG_Valid create.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Valid create.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_DGSave&amp;cont.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_DGSave&amp;cont.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/Pages/Pumps.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -109,7 +128,6 @@
         <option value="$PROJECT_DIR$/TestCases/test_CreateUsers.py" />
         <option value="$PROJECT_DIR$/BaseTestCases/BaseTestCase.py" />
         <option value="$PROJECT_DIR$/TestCases/test_ImportDataSet.py" />
-        <option value="$PROJECT_DIR$/Pages/Deployment_Group.py" />
         <option value="$PROJECT_DIR$/TestCases/test_CreateDG.py" />
         <option value="$PROJECT_DIR$/TestCases/Pump2.py" />
         <option value="$PROJECT_DIR$/Pages/LoginPage.py" />
@@ -119,16 +137,21 @@
         <option value="$PROJECT_DIR$/TestCases/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/Reporting_Lib/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/TestCases/test_suite.py" />
-        <option value="$PROJECT_DIR$/Pages/Pumps.py" />
         <option value="$PROJECT_DIR$/TestCases/Test_Pumps.py" />
+        <option value="$PROJECT_DIR$/Pages/Pumps.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" />
+        <option value="$PROJECT_DIR$/TestCases/DG_Delete.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_DG_Delete.py" />
+        <option value="$PROJECT_DIR$/Pages/Deployment_Group.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_DGSave&amp;cont.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,8 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,6 +240,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +259,7 @@
       <recent name="D:\Automation Python\ACE_Project\TestCases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Pumps">
+  <component name="RunManager" selected="Python tests.Unittests in test_DG_Delete">
     <configuration default="false" name="Unittests in Test_Pumps" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,67 +282,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test_suite" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_suite.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_suite" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_suite.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest smoke_test.main_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_suite.py" />
-      <option name="CLASS_NAME" value="smoke_test" />
-      <option name="METHOD_NAME" value="main_test" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Pumps" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,6 +295,62 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ACE_Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pages/Pumps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_DGSave&amp;cont" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_DGSave&amp;cont.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_DG_Delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_DG_Delete.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_DG_Delete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_DG_Delete.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -481,18 +499,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Pumps" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test_suite" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_suite" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest smoke_test.main_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Pumps" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Pumps" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_DGSave&amp;cont" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_Delete" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_DG_Delete" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Pumps" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Pumps" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest smoke_test.main_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_suite" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_suite" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_Delete" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_DGSave&amp;cont" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_DG_Delete" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Pumps" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Pumps" />
       </list>
     </recent_temporary>
   </component>
@@ -577,59 +595,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_smoke_test_main_test - 2016.05.18 at 14h 42m 36s.xml">
-      <configuration name="Unittest smoke_test.main_test" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 39m 55s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_smoke_test_main_test - 2016.05.18 at 14h 44m 43s.xml">
-      <configuration name="Unittest smoke_test.main_test" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 41m 51s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.17 at 23h 01m 33s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 44m 25s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.17 at 23h 07m 14s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 45m 50s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.17 at 23h 16m 41s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 47m 46s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.18 at 13h 10m 47s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 52m 00s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.18 at 13h 13m 59s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 15h 57m 31s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.18 at 15h 53m 27s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 17h 18m 23s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_Pumps - 2016.05.18 at 16h 09m 05s.xml">
-      <configuration name="Unittests in Test_Pumps" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 17h 23m 07s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_suite - 2016.05.18 at 14h 42m 25s.xml">
-      <configuration name="Unittests in test_suite" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_Delete - 2016.05.23 at 17h 24m 03s.xml">
+      <configuration name="Unittests in test_DG_Delete" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
-    <editor active="false" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3485309" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3469388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -669,34 +687,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Pumps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_ImportDataSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="120" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -857,17 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/imp.py">
+    <entry file="file://C:/Python35/Lib/imp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python35/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33286119">
-          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -878,7 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/unittest/case.py">
+    <entry file="file://C:/Python35/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26024362">
           <caret line="391" column="0" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
@@ -913,20 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="193" column="42" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateRole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6448276">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/DataSet_Import.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2400722">
@@ -944,28 +913,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/site-packages/ddt.py">
+    <entry file="file://C:/Python35/Lib/site-packages/ddt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/http/client.py">
+    <entry file="file://C:/Python35/Lib/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1173" column="0" selection-start-line="1173" selection-start-column="0" selection-end-line="1173" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+    <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python35/Lib/site-packages/xlrd/book.py">
+    <entry file="file://C:/Python35/Lib/site-packages/xlrd/book.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6080402">
           <caret line="448" column="0" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
@@ -1007,46 +976,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateDG.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateRole.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
-          <folding />
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/Pumps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
+    <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_DG_invalid_creation.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94471544">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/Test_Pumps.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Valid create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72357726">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_DGSave&amp;cont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Test_Pumps.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Delete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65337765">
-          <caret line="51" column="142" selection-start-line="51" selection-start-column="142" selection-end-line="51" selection-end-column="142" />
+        <state vertical-scroll-proportion="0.71869916">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
