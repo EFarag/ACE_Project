@@ -10,7 +10,7 @@ from ddt import ddt,data,unpack
 @ddt
 class test_DG_Create (BaseTestCase):
 
-    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/login_data.xlsx','DG'))
+    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/Test_Data.xlsx','DG'))
     @unpack
 
     def test_Create_DG(self,DGname,DGdesc,DGDB):

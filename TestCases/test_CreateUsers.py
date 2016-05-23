@@ -1,13 +1,13 @@
 import unittest
 from ddt import ddt,data,unpack
 from selenium import webdriver
-from ACE_Project.Pages.HomePage import HomePage
-from ACE_Project.Pages.LoginPage import LoginPage
-from ACE_Project.BaseTestCases.BaseTestCase import BaseTestCase
-from ACE_Project.Pages.UsersPage import UsersPage
+from Pages.HomePage import HomePage
+from Pages.LoginPage import LoginPage
+from BaseTestCases.BaseTestCase import BaseTestCase
+from Pages.UsersPage import UsersPage
 from time import sleep
-from ACE_Project.DataSource.read_excel import read_excel
-from ACE_Project.Pages.UsersPage import Add_Users
+from DataSource.read_excel import read_excel
+from Pages.UsersPage import Add_Users
 
 
 @ddt
@@ -21,7 +21,7 @@ class LoginTest(BaseTestCase):
 
 
 
-    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/login_data.xlsx','users'))
+    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/Test_Data.xlsx','users'))
     @unpack
     def test_Enter_Users(self,first_name,last_name,user_name,password,re_password):
          LoginPage.login(self,'Administrator','P@ssw0rd')
