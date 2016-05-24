@@ -85,4 +85,4 @@ class test_initialize(BaseTestCase):
          DG_Create.Cancel(self)
 
 if __name__ == '__main__':
-    unittestnittest.main()
+    unittest.main()
