@@ -22,6 +22,7 @@ class test_DG_Create (BaseTestCase):
         sleep(3)
         DG_Create.DG_DetailsPopup(self,DGname,DGdesc,int(DGDB))
         #Actual_Msg = DG_Create.DG_toast
+        DG_Create.save_close_btn(self)
         sleep(3)
         self.assertEqual(DG_Create.Toast(self),"Deployment Group " + DGname + " has been created.")
 
