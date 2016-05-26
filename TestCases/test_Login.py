@@ -2,10 +2,10 @@ import unittest
 
 from ddt import ddt,data,unpack
 from selenium import webdriver
-from  Pages.HomePage import HomePage
-from  Pages.LoginPage import LoginPage
-from  BaseTestCases.BaseTestCase import BaseTestCase
-from  DataSource.read_excel import read_excel
+from Pages.HomePage import HomePage
+from Pages.LoginPage import LoginPage
+from BaseTestCases.BaseTestCase import BaseTestCase
+from DataSource.read_excel import read_excel
 from time import sleep
 
 
@@ -13,7 +13,7 @@ from time import sleep
 class LoginTest(BaseTestCase):
 
 
-    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','login'))
+    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\Test_Data.xlsx','login'))
     @unpack
     def test_login_with_valid_credentials(self,Username,Password,LoginName):
        LoginPage.login(self,Username,Password)
