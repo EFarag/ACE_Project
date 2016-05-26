@@ -27,7 +27,6 @@ class DG_Create():
     def DG_createlink(self):
         self.driver.find_element(*DG_Create.CreateDG_btn).click()
 
-    Edit_btn = (By.XPATH, '/html/body/form/div[8]/section/section/div[1]/div[1]/a[2]')
 
     def DG_edit(self):
         self.driver.find_element(*DG_Create.Edit_btn).click()
@@ -140,7 +139,12 @@ class DG_Create():
                    ((By.CSS_SELECTOR, '#ctl00_ctl00_MasterPageContent_cpv_lbDelete')))
         delete.click()
 
-
+    def DG_edit(self):
+        Edit_btn = WebDriverWait(self.driver, 10) \
+            .until(expected_conditions.
+                   visibility_of_element_located
+                   ((By.XPATH, ".//*[@id='ctl00_ctl00_MasterPageContent_cpv_lbEdit']")))
+        Edit_btn.click()
 
     # This function is to return warning message before deployment group deletion inorder to assert it in the test case
     def warning_delete(self):

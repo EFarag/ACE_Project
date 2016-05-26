@@ -1,5 +1,5 @@
 import unittest
-from BaseTestCases.BaseTestCase import BaseTestCase
+from BaseTestCases.BaseTestCase import BaseTestCase, os
 from Pages.Deployment_Group import DG_Create
 from Pages.LoginPage import LoginPage
 from DataSource.read_excel import read_excel
@@ -10,7 +10,7 @@ from ddt import ddt,data,unpack
 @ddt
 class test_DG_Create (BaseTestCase):
 
-    @data(*read_excel.get_data_from_excel('C:/Users/DGad/Desktop/automation/ACE_Project/Data/Test_Data.xlsx','DG'))
+    @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','DG'))
     @unpack
 
     def test_Create_DG(self,DGname,DGdesc,DGDB):
