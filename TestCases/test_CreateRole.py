@@ -29,7 +29,7 @@ class Roles(BaseTestCase):
        RolesPage.Move_Left(self)
        RolesPage.Save_Role(self)
        if Role_name == "":
-        self.assertTrue(RolesPage.Role_name_missing(self),"* Required")
+        self.assertEqual(RolesPage.Role_name_missing(self),"* Required")
        else:
         self.assertEqual(RolesPage.Role_Message(self),"Role "+Role_name+" has been created.")
         print(RolesPage.Role_Message(self))
