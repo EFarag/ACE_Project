@@ -102,6 +102,11 @@ class DG_Details():
     DS_toast = (By.CSS_SELECTOR, 'html.firefox-42 body div.blockUI.toast.blockPage')
 
 
+#Assign pump continue button
+    Cont_btn=(By.XPATH,"html/body/div[4]/div[3]/div/button[1]")
+
+    def cont_pmp_assign(self):
+        self.driver.find_element(*DG_Details.Cont_btn).click()
 
     def Toast(self):
         toast_msg = self.driver.find_element(*DG_Details.DS_toast).text
@@ -113,3 +118,10 @@ class DG_Details():
      except NoSuchElementException as e:return False
      return True
 
+#Assign Pump to DG
+    # Browse_btn= (By.ID, 'ctl00_ctl00_MasterPageContent_cpv_ctlFileUpload')
+    # Continue_btn = (By.XPATH, '/html/body/div[5]/div[3]/div/button[1]')
+    # def Browse_File (self, Location):
+    #     self.driver.implicitly_wait(20)
+    #     self.driver.find_element(*DG_Details.Browse_btn).send_keys(Location)
+    #     self.driver.find_element(*DG_Details.Continue_btn).click()

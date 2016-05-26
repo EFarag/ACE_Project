@@ -18,10 +18,13 @@ class Pumps():
         self.driver.find_element(*Pumps.Import_btn).click()
 
     Browse_btn= (By.ID, 'ctl00_ctl00_MasterPageContent_cpv_ctlFileUpload')
-    Continue_btn = (By.XPATH, '/html/body/div[5]/div[3]/div/button[1]')
     def Browse_File (self, Location):
         self.driver.implicitly_wait(20)
         self.driver.find_element(*Pumps.Browse_btn).send_keys(Location)
+
+
+    Continue_btn = (By.XPATH, '/html/body/div[5]/div[3]/div/button[1]')
+    def Continue_Import(self):
         self.driver.find_element(*Pumps.Continue_btn).click()
 
     OK_btn = (By.XPATH, 'html/body/div[3]/div[3]/div/button[2]')

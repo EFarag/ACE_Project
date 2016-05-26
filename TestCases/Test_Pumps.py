@@ -38,6 +38,8 @@ class test_Pumps(BaseTestCase):
         Pumps.Import_Pump(self)
         sleep(3)
         Pumps.Browse_File(self,url)
+        sleep(2)
+        Pumps.Continue_Import(self)
         sleep(5)
         self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable'))
 #--------------------------------- Popup text assertion --------------------------------------------------------------------------------------------------------------

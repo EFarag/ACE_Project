@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8605fd2e-c8e5-48a4-b6dd-c230bf2097ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_DG_AssignDS.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_DG_Invalid_Edit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestCases/test_DG_Valid_Edit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Test_Data.xlsx" afterPath="$PROJECT_DIR$/Data/Test_Data.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/DG_details_Screen.py" afterPath="$PROJECT_DIR$/Pages/DG_details_Screen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/Deployment_Group.py" afterPath="$PROJECT_DIR$/Pages/Deployment_Group.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_DG_Delete.py" afterPath="$PROJECT_DIR$/TestCases/test_DG_Delete.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" afterPath="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/Pumps.py" afterPath="$PROJECT_DIR$/Pages/Pumps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/Test_Pumps.py" afterPath="$PROJECT_DIR$/TestCases/Test_Pumps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" afterPath="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" />
     </list>
     <ignored path="ACE_Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_DG_Invalid_Edit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Invalid_Edit.py">
+      <file leaf-file-name="test_DG_Valid_Edit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Valid_Edit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.172414">
-              <caret line="29" column="139" selection-start-line="29" selection-start-column="139" selection-end-line="29" selection-end-column="139" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -49,14 +45,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_DG_Valid_Edit.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Valid_Edit.py">
+      <file leaf-file-name="Test_Pumps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/Test_Pumps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.99525315">
-              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_DG_AssignPumps.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81170887">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pumps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/Pumps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_CreateUsers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersPage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/UsersPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,53 +102,11 @@
       <file leaf-file-name="DG_details_Screen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/DG_details_Screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.103448">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="11" />
+            <state vertical-scroll-proportion="-6.9310346">
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_DG_AssignPumps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_DG_Valid create.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Valid create.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,10 +114,22 @@
       <file leaf-file-name="Deployment_Group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.034483">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="39" />
+            <state vertical-scroll-proportion="-11.068966">
+              <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_DG_Delete.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,8 +164,6 @@
         <option value="$PROJECT_DIR$/TestCases/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/Reporting_Lib/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/TestCases/test_suite.py" />
-        <option value="$PROJECT_DIR$/Pages/Pumps.py" />
-        <option value="$PROJECT_DIR$/TestCases/Test_Pumps.py" />
         <option value="$PROJECT_DIR$/TestCases/test_Login.py" />
         <option value="$PROJECT_DIR$/TestCases/test_CreateUsers.py" />
         <option value="$PROJECT_DIR$/TestCases/test_CreateDG.py" />
@@ -171,11 +177,14 @@
         <option value="$PROJECT_DIR$/TestCases/test_DG_Delete.py" />
         <option value="$PROJECT_DIR$/Pages/Deployment_Group.py" />
         <option value="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" />
-        <option value="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" />
         <option value="$PROJECT_DIR$/TestCases/test_DG_AssignDS.py" />
         <option value="$PROJECT_DIR$/TestCases/test_DG_Invalid_Edit.py" />
-        <option value="$PROJECT_DIR$/Pages/DG_details_Screen.py" />
         <option value="$PROJECT_DIR$/TestCases/test_DG_Valid_Edit.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_DG_Assignpump.py" />
+        <option value="$PROJECT_DIR$/Pages/Pumps.py" />
+        <option value="$PROJECT_DIR$/TestCases/Test_Pumps.py" />
+        <option value="$PROJECT_DIR$/Pages/DG_details_Screen.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" />
       </list>
     </option>
   </component>
@@ -319,7 +328,122 @@
       <recent name="D:\Automation Python\ACE_Project\TestCases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_DG_Valid_Edit">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Data/Test_Data.xlsx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DataSource/read_excel.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Pages/Pumps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Pages/UsersPage.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCases/Test_Pumps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/TestCases/test_CreateUsers.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_DG_AssignPumps">
     <configuration default="false" name="Unittests in test_DG_Valid_Edit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,45 +464,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in Test_Pumps" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/Test_Pumps.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_DG_Valid create" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ACE_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Unittest DG_validEdit.test_valid_DG_Edit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -418,6 +503,50 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_DG_AssignPumps" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest AssignPumps.test_DG_AssignPmps" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ACE_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py" />
+      <option name="CLASS_NAME" value="AssignPumps" />
+      <option name="METHOD_NAME" value="test_DG_AssignPmps" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -569,18 +698,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_Valid_Edit" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Pumps" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_DG_Valid create" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest DG_validEdit.test_valid_DG_Edit" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_AssignDS" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest DG_validEdit.test_valid_DG_Edit" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_AssignDS" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_AssignPumps" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest AssignPumps.test_DG_AssignPmps" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_Valid_Edit" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_AssignDS" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest DG_validEdit.test_valid_DG_Edit" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_DG_Valid create" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Pumps" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_AssignPumps" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest AssignPumps.test_DG_AssignPmps" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_Valid_Edit" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_DG_AssignDS" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest DG_validEdit.test_valid_DG_Edit" />
       </list>
     </recent_temporary>
   </component>
@@ -685,58 +814,64 @@
       <option name="project" value="LOCAL" />
       <updated>1464110548255</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Reem">
+      <created>1464263980832</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1464263980832</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 45m 18s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittest_AssignPumps_test_DG_AssignPmps - 2016.05.26 at 15h 37m 24s.xml">
+      <configuration name="Unittest AssignPumps.test_DG_AssignPmps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 45m 57s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 24m 07s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 46m 43s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 37m 58s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 50m 12s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 39m 58s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 51m 05s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 49m 50s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 52m 12s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 50m 40s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 55m 25s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 52m 26s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 57m 11s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 53m 11s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 57m 48s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 54m 09s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_DG_Valid_Edit - 2016.05.26 at 13h 58m 57s.xml">
-      <configuration name="Unittests in test_DG_Valid_Edit" configurationId="tests" />
+    <history-entry file="Unittests_in_test_DG_AssignPumps - 2016.05.26 at 15h 56m 51s.xml">
+      <configuration name="Unittests in test_DG_AssignPumps" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24635416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24635416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.331307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39817628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -773,6 +908,10 @@
           <line>15</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py</url>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -781,7 +920,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -791,13 +930,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BaseTestCases/BaseTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -903,13 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Pumps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_Login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4074073">
@@ -1003,13 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python35/Lib/imp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1068,42 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="147" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="147" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/UsersPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/Test_Pumps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.022151899">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python35/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1136,16 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.034483">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_DG_AssignDS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7579114">
@@ -1166,20 +1238,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/DG_details_Screen.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Delete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.103448">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/Deployment_Group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.068966">
+          <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/UsersPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_DG_Valid_Edit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.99525315">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/DG_details_Screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9310346">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/Test_Pumps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/Pumps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_DG_AssignPumps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81170887">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
