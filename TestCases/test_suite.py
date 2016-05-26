@@ -21,6 +21,9 @@ print ("Runner prepared ..")
 runner.run(smoke_test)
 print ("Runner Done ..")
 
+if __name__ == "main":
+    unittest.main()
+
 
 
 
