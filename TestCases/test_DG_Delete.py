@@ -11,11 +11,13 @@ from selenium.webdriver.support import expected_conditions
 from ddt import ddt,data,unpack
 import os.path
 
+
 @ddt
 class test_DGDelete(BaseTestCase):
 
     @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','DG_delete'))
     @unpack
+
     def test_Delete_DG(self,DGname):
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
