@@ -12,7 +12,7 @@ import xmlrunner
 login_suite = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
 smoke_test = unittest.TestSuite([login_suite])
 
-outfile = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "Report.html", "w")
+outfile = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\Report.html", "w")
 print (outfile.name)
 #create Test Report
 runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title= 'test', description = 'smoke test suite report')
