@@ -1,74 +1,111 @@
 import unittest
+
+from selenium.webdriver.common.by import By
+from BaseTestCases.BaseTestCase import BaseTestCase
 from DataSource.read_excel import read_excel
 from ddt import ddt,data,unpack
-from BaseTestCases.BaseTestCase import BaseTestCase
 from Pages.LoginPage import LoginPage
 from Pages.Pumps import Pumps
 from Pages.Pumps import Popup_Assertion
 from time import sleep
-from selenium.webdriver.common.by import By
-import select
+from selenium.common.exceptions import NoSuchElementException
+
+
+@ddt
+class test_Pumps(BaseTestCase):
 
 #----------------------------------------------- Cancel Import ----------------------------------------------------------------------------------------------------------------------
-@ddt
-class test_CancelPumpsImport(BaseTestCase):
+    # def test_Cancel(self):
+    #     LoginPage.login(self,'Administrator','P@ssw0rd')
+    #     sleep(3)
+    #     Pumps.Pumps_link(self)
+    #     sleep(3)
+    #     Pumps.Import_Pump(self)
+    #     sleep(3)
+    #     self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='html.firefox-46 body div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix span#ui-id-2.ui-dialog-title'))
+    #     Pumps.Cancel_Import(self)
+    #     sleep(5)
+    #     #self.assertTrue(Popup_Assertion.is_element_disabled(self,how=By.CSS_SELECTOR, what='html.firefox-46 body div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix span#ui-id-2.ui-dialog-title'))
 
-    def test_Cancel(self):
-        LoginPage.login(self,'Administrator','P@ssw0rd')
-        sleep(3)
-        Pumps.Pumps_link(self)
-        sleep(3)
-        Pumps.Import_Pump(self)
-        sleep(3)
-        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='html.firefox-46 body div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix span#ui-id-2.ui-dialog-title'))
-        Pumps.Cancel_Import(self)
-        sleep(5)
-        #self.assertTrue(Popup_Assertion.is_element_disabled(self,how=By.CSS_SELECTOR, what='html.firefox-46 body div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix span#ui-id-2.ui-dialog-title'))
+#----------------------------------- Successful Pump Importing --------------------------------------------------------------------------------------------------------------------
+#     @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Pumps'))
+#     @unpack
+#     def test_Import(self,url):
+#         LoginPage.login(self,'Administrator','P@ssw0rd')
+#         sleep(3)
+#         Pumps.Pumps_link(self)
+#         sleep(3)
+#         Pumps.Import_Pump(self)
+#         sleep(3)
+#         Pumps.Browse_File(self,url)
+#         sleep(5)
+#         self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable'))
+# #--------------------------------- Popup text assertion --------------------------------------------------------------------------------------------------------------
+#         Import_Popup = Pumps.Import_Toast(self)
+#         print(Import_Popup)
+#         self.assertEqual( Import_Popup,'Number of pumps imported:8\n\nNumber of pumps NOT imported:0')
+#         Pumps.Ok_Import(self)
+#         sleep(10)
 
+#------------------------------ Negative Scenario Pump Importing -------------------------------------------------------------------------------------------------------------------------
+#     @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Pumps'))
+#     @unpack
+#     def test_FailedImport(self, url):
+#         LoginPage.login(self,'Administrator','P@ssw0rd')
+#         sleep(3)
+#         Pumps.Pumps_link(self)
+#         sleep(3)
+#         Pumps.Import_Pump(self)
+#         sleep(3)
+#         Pumps.Browse_File(self,url)
+#         sleep(5)
+#         self.assertTrue(Popup_Assertion.is_element_present(self,how=By.ID, what='divImportPumpStatus'))
+# #--------------------------------- Popup text assertion --------------------------------------------------------------------------------------------------------------
+#         Import_Popup = Pumps.Import_Toast(self)
+#         print(Import_Popup)
+#         self.assertEqual( Import_Popup,'Number of pumps imported:0\n\nNumber of pumps NOT imported:2')
+#         Pumps.Ok_Import(self)
+#         sleep(10)
+#         Pumps.Ok_Import(self)
+#         sleep(10)
+#
+# #------------------------------ Duplicate Scenario Pump Importing -----------------------------------------------------------------------------------------------------------------------------
+#     @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Pumps'))
+#     @unpack
+#     def test_DuplicateImport(self,url):
+#         LoginPage.login(self,'Administrator','P@ssw0rd')
+#         sleep(3)
+#         Pumps.Pumps_link(self)
+#         sleep(3)
+#         Pumps.Import_Pump(self)
+#         sleep(3)
+#         Pumps.Browse_File(self,url)
+#         sleep(5)
+#         self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable'))
+# #--------------------------------- Popup text assertion --------------------------------------------------------------------------------------------------------------
+#         Import_Popup = Pumps.Import_Toast(self)
+#         print(Import_Popup)
+#         self.assertEqual( Import_Popup,'Number of pumps imported:0\n\nNumber of pumps NOT imported:8')
+#         Pumps.Ok_Import(self)
+#         sleep(10)
+#
+# #----------------------------------- Delete Pump --------------------------------------------------------------------------------------------------------------------------------------
 
-@ddt#----------------------------------- Successful Pump Importing ------------------------------------------------------------------------
-class test_PumpsImport(BaseTestCase):
-
-
-    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Pumps'))
+    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\pumps.xlsx','Sheet1'))
     @unpack
-    def test_Import(self,url):
+    def test_delete(self,SN, Type):
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         Pumps.Pumps_link(self)
         sleep(3)
-        Pumps.Import_Pump(self)
+        try: Pumps.Select_Pump(self,SN)
+        except NoSuchElementException as e:return True
         sleep(3)
-        Pumps.Browse_File(self,url)
-        sleep(5)
-        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.CSS_SELECTOR, what='.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable'))
-        Window_text = (By.CSS_SELECTOR, '#ctl00_ctl00_MasterPageContent_cpv_divLogResult')
-
-        Pumps
-        Pumps.Ok_Import(self)
-        sleep(10)
-
-
-@ddt #------------------------------ Negative Scenario Pump Importing ------------------------------------------------------------------------
-class test_InvalidPumpsImport(BaseTestCase):
-
-
-    @data(*read_excel.get_data_from_excel('D:\Automation Python\ACE_Project\Data\login_data.xlsx','Pumps'))
-    @unpack
-    def test_FailedImport(self, url):
-        LoginPage.login(self,'Administrator','P@ssw0rd')
-        sleep(3)
-        Pumps.Pumps_link(self)
-        sleep(3)
-        Pumps.Import_Pump(self)
-        sleep(3)
-        Pumps.Browse_File(self,url)
-        sleep(5)
-        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.ID, what='divImportPumpStatus'))
-        Pumps.Ok_Import(self)
-        sleep(10)
-
-
+        Pumps.Remove_Pump(self)
 
 if __name__ == '__main__':
-    unittest.main()
+     unittest.main()
+    # oneTestCase =  unittest.TestSuite()
+    # oneTestCase.addTest(test_Pumps("test_delete"))
+    # unittest.TextTestRunner().run(oneTestCase)
+
