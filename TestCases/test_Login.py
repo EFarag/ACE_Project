@@ -16,11 +16,27 @@ class LoginTest(BaseTestCase):
 
     @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','login'))
     @unpack
-    def test_login_with_valid_credentials(self,Username,Password,LoginName):
+    def test_login(self,Username,Password,LoginName):
+       LoginPage.clear_Credentials(self)
        LoginPage.login(self,Username,Password)
-       sleep(3);
-       self.assertEqual(LoginName,HomePage.get_login_name(self))
-       print(HomePage.get_login_name(self))
+
+       if(Username == ""):
+        sleep(5)
+        self.assertEqual(LoginPage.Username_required(self),"* Required")
+
+
+       elif(Password == ""):
+        sleep(5)
+        self.assertEqual(LoginPage.Password_required(self),"* Required")
+
+       elif(Username !="Administrator" or Password != "P@ssw0rd"):
+        sleep(5)
+        self.assertEqual(LoginPage.Invalid_login(self),"Username and/or password is incorrect. For help, contact your administrator.")
+       else:
+        sleep(3);
+        self.assertEqual(LoginName,HomePage.get_login_name(self))
+        print(HomePage.get_login_name(self))
+
 
 
 

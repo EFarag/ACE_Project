@@ -16,7 +16,7 @@ smoke_test = unittest.TestSuite([login_suite])
 outfile = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\Report" + time.strftime("%Y%m%d-%H%M%S") + ".html", "w")
 print (outfile.name)
 #create Test Report
-runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title= 'test', description = 'smoke test suite report')
+runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title= 'test', description = 'Smoke test report')
 print ("Runner prepared ..")
 # runner = xmlrunner.XMLTestRunner(output="test-results")
 runner.run(smoke_test)

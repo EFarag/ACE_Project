@@ -4,8 +4,6 @@ from selenium.common.exceptions import NoSuchElementException
 
 class Dataset():
     #DataSet Locators
-
-
     Datasetink = (By.LINK_TEXT,'Data Sets')
     DS_label = (By.ID,'ctl00_ctl00_MasterPageContent_breadCrumbs_uxBreadcrumbSiteMap_ctl04_uxBreadcrumbLabel')
     Import_button= (By.ID,'ctl00_ctl00_MasterPageContent_cpv_lblBtnImport')
@@ -14,13 +12,16 @@ class Dataset():
     fileUpload =(By.XPATH,'/html/body/div[6]/div[2]/div[1]/input')
     SubmitButton = (By.XPATH,'/html/body/div[6]/div[3]/div/button[1]')
     ID_Code_TXT =(By.ID,'ctl00_ctl00_MasterPageContent_cpv_txtImportDSCode')
+    Delete_Code_ID =(By.ID,'ctl00_ctl00_MasterPageContent_cpv_txtDataSetId')
     Import_Button = (By.XPATH,'/html/body/div[3]/div[3]/div/button[1]')
+    Submit_Delete= (By.XPATH,'html/body/div[6]/div[3]/div/button[1]')
     Toast_Label =(By.XPATH,'html/body/div[7]')
     invalid_label =(By.ID,'ctl00_ctl00_MasterPageContent_cpv_labelRegexValidatorFileUpload')
     Required_Label =(By.ID,'ctl00_ctl00_MasterPageContent_cpv_labelRequiredFieldValidatorFileUpload')
     Delete_BTN =(By.ID,'ctl00_ctl00_MasterPageContent_cpv_lblBtnDelete')
     Delete_Password = (By.XPATH,".//*[@id='ctl00_ctl00_MasterPageContent_cpv_txtActionPassword']")
     Delete_Toast_Msg =(By.XPATH,'html/body/div[9]')
+    DSGrid = (By.XPATH, ".//*[@id='ctl00_ctl00_MasterPageContent_cpv_lstDatasets_itemPlaceholderContainer']/tbody/tr")
 
     Page_elements = (Datasetink,DS_label,Import_button,dataset_password,dataset_submit,fileUpload,SubmitButton,ID_Code_TXT,Import_Button)
 
@@ -75,19 +76,26 @@ class Dataset():
 
 
     def Delete_DataSet(self, DS_name):
-
-
-    DGGrid = (By.XPATH, ".//*[@id='ctl00_ctl00_MasterPageContent_cpv_lstDeploymentGroups_itemPlaceholderContainer']/tbody/tr")
-    def AselectDG(self, name):
         options_List = []
-        options_List = self.driver.find_elements(*DG_Create.DGGrid)
+        options_List = self.driver.find_elements(*Dataset.DSGrid)
         options_List.pop(0)
         for option in options_List:
-            groupName = option.find_element(By.XPATH, ".//td[1]").text
-            if groupName == name:
+            DSname = option.find_element(By.XPATH, ".//td[1]").text
+            if DSname == DS_name:
                 CB = option.find_element(By.XPATH, ".//td[1]/span")
                 CB.click()
+                self.driver.find_element(*Dataset.Delete_BTN).click()
                 break
+    def Dataset_Delete_code(self,IDC):
+       self.driver.find_element(*Dataset.Delete_Code_ID).send_keys(IDC)
+       self.driver.find_element(*Dataset.Submit_Delete).click()
+       self.driver.implicitly_wait(10)
+
+    def Delete_Toast(self):
+        Label_TXT = self.driver.find_element(*Dataset.Delete_Toast_Msg).text
+        return Label_TXT
+
+
 
 class Popup_Assertion():
     def is_element_present(self,how,what):

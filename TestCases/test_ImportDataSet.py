@@ -17,7 +17,7 @@ class Datasets(BaseTestCase):
 
    @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','Datasets'))
    @unpack
-   def test_Upload(self,url,code,DatasetName):
+   def test_Upload(self,DatasetName,code):
        LoginPage.login(self,'Administrator','P@ssw0rd')
        sleep(1)
        Dataset.Dataset_link(self)
@@ -31,7 +31,8 @@ class Datasets(BaseTestCase):
        sleep(5)
        self.assertTrue(Popup_Assertion.is_element_present(self,how=By.XPATH,what=".//*[@id='ui-id-3']"))
         #Assert that Import Dataset popup screen is displayed
-       Dataset.File_Upload(self,location=url)
+       url = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\\'+DatasetName
+       Dataset.File_Upload(self,location= url)
        if url == "":
         sleep(5)
         self.assertEqual(Dataset.Required_filename(self),"File Name is required.")

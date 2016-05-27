@@ -4,7 +4,7 @@ from Pages.Deployment_Group import DG_Create
 from Pages.DG_details_Screen import DG_Details
 from Pages.LoginPage import LoginPage
 from Pages.Pumps import Pumps
-
+import os.path
 from DataSource.read_excel import read_excel
 from selenium.webdriver.common.by import By
 from time import sleep
@@ -14,7 +14,7 @@ from ddt import ddt,data,unpack
 @ddt
 class test_DG_Create (BaseTestCase):
 
-    @data(*read_excel.get_data_from_excel('os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','DG'))
+    @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','DG'))
     @unpack
 
     def test_Create_DG(self,DGname,DGdesc,DGDB):
