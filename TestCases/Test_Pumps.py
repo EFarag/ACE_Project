@@ -53,7 +53,7 @@ class test_Pumps(BaseTestCase):
         sleep(10)
 
 #------------------------------ Negative Scenario Pump Importing -------------------------------------------------------------------------------------------------------------------------
-    @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\Test_Data.xlsx','Pumps'))
+    @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\Test_Data.xlsx','PumpsFailed'))
     @unpack
     def test_FailedImport(self, url):
         File_location = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +'\\Data\\' + url
