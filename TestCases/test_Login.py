@@ -24,7 +24,6 @@ class LoginTest(BaseTestCase):
         sleep(5)
         self.assertEqual(LoginPage.Username_required(self),"* Required")
 
-
        elif(Password == ""):
         sleep(5)
         self.assertEqual(LoginPage.Password_required(self),"* Required")

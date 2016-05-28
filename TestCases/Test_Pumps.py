@@ -119,7 +119,5 @@ class test_Pumps(BaseTestCase):
 
 if __name__ == '__main__':
      unittest.main()
-    # oneTestCase =  unittest.TestSuite()
-    # oneTestCase.addTest(test_Pumps("test_delete"))
-    # unittest.TextTestRunner().run(oneTestCase)
+
 

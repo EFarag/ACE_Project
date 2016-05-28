@@ -35,9 +35,11 @@ class Datasets(BaseTestCase):
        Dataset.File_Upload(self,location= url)
        if url == "":
         sleep(5)
+         #Assert that Import Dataset file name is required
         self.assertEqual(Dataset.Required_filename(self),"File Name is required.")
        elif DatasetName[-4:] != ".mgr":
         sleep(5)
+        #Assert that Import Dataset file type should be .mgr only is required
         self.assertEqual(Dataset.Invalid_file(self),"Only .mgr files are allowed.")
        else:
         Dataset.Dataset_Import(self,IDC=code)

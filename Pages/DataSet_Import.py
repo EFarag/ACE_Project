@@ -62,19 +62,19 @@ class Dataset():
         self.driver.implicitly_wait(3)
         Label_TXT = self.driver.find_element(*Dataset.Toast_Label).text
         return Label_TXT
-
+    #Method to check the invalid dataset input
     def Invalid_file(self):
        Label_TXT = self.driver.find_element(*Dataset.invalid_label).text
        return Label_TXT
 
-
+    #Method to check that filename is required
     def Required_filename(self):
        Label_TXT = self.driver.find_element(*Dataset.Required_Label).text
        return Label_TXT
 
 #****************************************Delete Dataset******************************
 
-
+    #Method to delete Datasets
     def Delete_DataSet(self, DS_name):
         options_List = []
         options_List = self.driver.find_elements(*Dataset.DSGrid)
@@ -86,11 +86,15 @@ class Dataset():
                 CB.click()
                 self.driver.find_element(*Dataset.Delete_BTN).click()
                 break
+
+    #Method to insert Dataset code to proceed deleting
     def Dataset_Delete_code(self,IDC):
        self.driver.find_element(*Dataset.Delete_Code_ID).send_keys(IDC)
        self.driver.find_element(*Dataset.Submit_Delete).click()
        self.driver.implicitly_wait(10)
 
+
+    #Method to assert the deletion of Dataset
     def Delete_Toast(self):
         Label_TXT = self.driver.find_element(*Dataset.Delete_Toast_Msg).text
         return Label_TXT

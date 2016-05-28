@@ -5,7 +5,6 @@ from Pages.LoginPage import LoginPage
 from BaseTestCases.BaseTestCase import BaseTestCase
 from Pages.Roles import RolesPage
 from time import sleep
-from selenium.webdriver.common.by import By
 import os.path
 
 

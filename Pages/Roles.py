@@ -1,4 +1,3 @@
-import selenium
 from selenium.webdriver.common.by import By
 import time
 
@@ -71,7 +70,7 @@ class RolesPage():
 
 
 #******************************************Edit Functions******************************
-
+    #Method to check the update of roles
     def Role_Edit(self, Role_name,Role_perm):
      Roles_List = []
      counter=1
@@ -104,7 +103,7 @@ class RolesPage():
 
         counter += 1
 
-       #Method to check the confirmation message after creation
+       #Method to check the confirmation message after update
     def UpdateRole_Message(self):
      self.driver.implicitly_wait(5)
      Msg_TXT = self.driver.find_element(*RolesPage.Msg_Label).text
@@ -114,7 +113,7 @@ class RolesPage():
         #**************************************Delete Role**************************
 
 
-
+  #Method to check the deletion of roles
     def Role_Delete(self, DRole_name):
      Roles_List = []
      counter=1
@@ -136,7 +135,7 @@ class RolesPage():
 
         counter += 1
 
-
+   #Method to check the confirmation message after deletion
     def DeleteRole_Message(self):
      self.driver.implicitly_wait(5)
      Msg_TXT = self.driver.find_element(*RolesPage.Delete_Confirmation_Msg).text
