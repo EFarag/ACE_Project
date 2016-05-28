@@ -72,7 +72,7 @@ class test_Pumps(BaseTestCase):
 #--------------------------------- Popup text assertion --------------------------------------------------------------------------------------------------------------
         Import_Popup = Pumps.Import_Toast(self)
         print(Import_Popup)
-        self.assertEqual( Import_Popup,'Number of pumps imported:0\n\nNumber of pumps NOT imported:2')
+        self.assertEqual( Import_Popup,'Number of pumps imported:0\n\nNumber of pumps NOT imported:5')
         Pumps.Ok_Import(self)
         sleep(10)
         Pumps.Ok_Import(self)
