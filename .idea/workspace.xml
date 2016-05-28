@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8605fd2e-c8e5-48a4-b6dd-c230bf2097ba" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCases/test_DGSave&amp;cont.py" afterPath="$PROJECT_DIR$/TestCases/test_DGSave_cont.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCases/test_DG_Valid create.py" afterPath="$PROJECT_DIR$/TestCases/test_DG_Valid_create.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Test_Data.xlsx" afterPath="$PROJECT_DIR$/Data/Test_Data.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_DG_invalid_creation.py" afterPath="$PROJECT_DIR$/TestCases/test_DG_invalid_creation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_Delete_Role.py" afterPath="$PROJECT_DIR$/TestCases/test_Delete_Role.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_Role_Edit.py" afterPath="$PROJECT_DIR$/TestCases/test_Role_Edit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_suite.py" afterPath="$PROJECT_DIR$/TestCases/test_suite.py" />
     </list>
     <ignored path="ACE_Project.iws" />
@@ -37,8 +31,18 @@
       <file leaf-file-name="test_suite.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCases/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29516995">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.6601073">
+              <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_CreateUsers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -764,7 +768,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464310247982</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Eman">
+      <created>1464443145635</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1464443145635</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -985,6 +995,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,16 +1162,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +1172,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1271,15 +1274,23 @@
         <state vertical-scroll-proportion="0.11806798">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_CreateUsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29516995">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.6601073">
+          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
           <folding />
         </state>
       </provider>

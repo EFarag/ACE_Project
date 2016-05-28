@@ -29,7 +29,7 @@ import xmlrunner
 
 login_suite = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
 users_suite = unittest.TestLoader().loadTestsFromTestCase(test_users)
-Roles_suite = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
+Roles_suite = unittest.TestLoader().loadTestsFromTestCase(Roles,Roles_Edit,Roles_Delete)
 Datasets_suite = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
 DeploymentGroup_suite = unittest.TestLoader().loadTestsFromTestCase(test_DG_Create,test_invalid_create,DG_validEdit,DG_InvalidEdit,AssignPumps,Assign_DS,test_DGDelete,test_DG_deletepmps)
 Pumps = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
