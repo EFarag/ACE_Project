@@ -42,10 +42,10 @@ Pumps_suite = unittest.TestLoader().loadTestsFromTestCase(test_Pumps)
 smoke_test = unittest.TestSuite([login_suite,users_suite,Roles_Creation_suite,Role_Edit_suite,Role_Delete_suite,Datasets_Creation_suite,Datasets_Delete_suite,DeploymentGroup_ValidCreate_suite,DeploymentGroup_InvalidCreate_suite,DeploymentGroup_ValidEdit_suite,DeploymentGroup_InvalidEdit_suite,DeploymentGroup_Save_suite,DeploymentGroup_AssignDS_suite,DeploymentGroup_AssignPumps_suite,DeploymentGroup_Delete_suite,Pumps_suite ])
 
 
-outfile = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\Report" + time.strftime("%Y%m%d-%H%M%S") + ".html", "w")
+outfile = open(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\Report_" + time.strftime("%Y%m%d-%H%M%S ") + ".html", "w")
 print (outfile.name)
 #create Test Report
-runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title= 'test', description = 'Smoke test report')
+runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title= 'ACE Execution Status', description = 'Smoke test report')
 print ("Runner prepared ..")
 # runner = xmlrunner.XMLTestRunner(output="test-results")
 runner.run(smoke_test)
