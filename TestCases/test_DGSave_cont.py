@@ -12,7 +12,7 @@ from ddt import ddt,data,unpack
 
 
 @ddt
-class test_DG_Create (BaseTestCase):
+class test_DG_Creation (BaseTestCase):
 
     @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','DG'))
     @unpack
