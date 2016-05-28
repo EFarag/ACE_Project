@@ -52,7 +52,7 @@ class Pumps():
     Confirm_Delete = (By.XPATH, 'html/body/div[5]/div[3]/div/button[1]')
     def Remove_Pump (self):
         self.driver.find_element(*Pumps.Delete_Pump).click()
-        self.driver.implicitly_wait(10)
+        sleep(5)
         self.driver.find_element(*Pumps.Confirm_Delete).click()
 
 #-----------Popup assertion----------------------------------------------------------------------------------------------------------------------------------------------------------
