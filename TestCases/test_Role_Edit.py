@@ -11,7 +11,7 @@ import os.path
 
 
 @ddt
-class Roles(BaseTestCase):
+class Roles_Edit(BaseTestCase):
 
    @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','Roles_Editing'))
    @unpack

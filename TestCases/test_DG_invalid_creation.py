@@ -9,7 +9,7 @@ from Pages.Deployment_Group import DG_Create
 from Pages.LoginPage import LoginPage
 from time import sleep
 
-class test_initialize(BaseTestCase):
+class test_invalid_create(BaseTestCase):
       def test_name_req(self):
          LoginPage.login(self,'Administrator','P@ssw0rd')
          sleep(3)
