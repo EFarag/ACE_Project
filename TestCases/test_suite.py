@@ -1,5 +1,4 @@
 import os
-import sys
 import time
 import unittest
 from TestCases.test_Login import LoginTest
