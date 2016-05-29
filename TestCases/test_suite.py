@@ -47,7 +47,6 @@ print (outfile.name)
 #create Test Report
 runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title= 'ACE Execution Status', description = 'Smoke test report')
 print ("Runner prepared ..")
-# runner = xmlrunner.XMLTestRunner(output="test-results")
 runner.run(smoke_test)
 print ("Runner Done ..")
 
