@@ -2,12 +2,8 @@ import os
 import time
 import unittest
 import sys
-
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "\\TestCases")
-print (sys.path)
 
-import TestCases
 from TestCases.test_Login import LoginTest
 from TestCases.test_CreateUsers import test_users
 from TestCases.test_CreateRole import Roles
