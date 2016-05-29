@@ -1,6 +1,10 @@
 import os
 import time
 import unittest
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from TestCases.test_Login import LoginTest
 from TestCases.test_CreateUsers import test_users
 from TestCases.test_CreateRole import Roles
