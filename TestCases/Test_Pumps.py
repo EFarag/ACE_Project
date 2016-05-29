@@ -17,6 +17,7 @@ class test_Pumps(BaseTestCase):
 
 #----------------------------------------------- Cancel Import ----------------------------------------------------------------------------------------------------------------------
     def test_Cancel(self):
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         Pumps.Pumps_link(self)
@@ -32,6 +33,7 @@ class test_Pumps(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\Test_Data.xlsx','Pumps'))
     @unpack
     def test_Import(self,url):
+        self.driver.implicitly_wait(30)
         File_location = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +'\\Data\\' + url
         print(File_location)
         LoginPage.login(self,'Administrator','P@ssw0rd')
@@ -56,6 +58,7 @@ class test_Pumps(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\Test_Data.xlsx','PumpsFailed'))
     @unpack
     def test_FailedImport(self, url):
+        self.driver.implicitly_wait(30)
         File_location = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +'\\Data\\' + url
         print(File_location)
         LoginPage.login(self,'Administrator','P@ssw0rd')
@@ -82,6 +85,7 @@ class test_Pumps(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\Test_Data.xlsx','Pumps'))
     @unpack
     def test_DuplicateImport(self,url):
+        self.driver.implicitly_wait(30)
         File_location = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +'\\Data\\' + url
         print(File_location)
         LoginPage.login(self,'Administrator','P@ssw0rd')
@@ -107,6 +111,7 @@ class test_Pumps(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\pumps.xlsx','Sheet1'))
     @unpack
     def test_delete(self,SN, Type):
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         Pumps.Pumps_link(self)
