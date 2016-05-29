@@ -15,6 +15,7 @@ class Roles(BaseTestCase):
    @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','Roles'))
    @unpack
    def test_Create_Roles(self,Role_name,Role_Perm):
+       self.driver.implicitly_wait(30)
        LoginPage.login(self,'Administrator','P@ssw0rd')
        sleep(3)
 

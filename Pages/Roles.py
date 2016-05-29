@@ -119,7 +119,7 @@ class RolesPage():
      counter=1
      Roles_List = self.driver.find_elements(*RolesPage.Roles_Options)
      for option in Roles_List:
-        roleLabel = option.find_element(By.XPATH, ".//table/tbody//tr/td[1]/span[1]")
+        roleLabel = option.find_element(By.XPATH, ".//table/tbody/tr/td[1]/span[1]")
         if roleLabel.text == DRole_name:
             if(counter <= 9):
                 self.arrowELem = self.driver.find_element(By.ID,"ctl00_ctl00_MasterPageContent_cpv_rptRoles_ctl0"+str(counter)+ "_imgArrow")

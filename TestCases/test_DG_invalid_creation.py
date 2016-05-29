@@ -11,6 +11,7 @@ from time import sleep
 
 class test_invalid_create(BaseTestCase):
       def test_name_req(self):
+         self.driver.implicitly_wait(30)
          LoginPage.login(self,'Administrator','P@ssw0rd')
          sleep(3)
          DG_Create.DG_screenlink(self)

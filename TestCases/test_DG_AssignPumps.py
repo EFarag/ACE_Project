@@ -17,7 +17,7 @@ class AssignPumps(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','Assign_to_DG'))
     @unpack
     def test_DG_AssignPmps(self,filename):
-
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         DG_Create.DG_screenlink(self)

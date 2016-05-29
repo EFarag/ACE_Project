@@ -18,6 +18,7 @@ class test_DG_Creation (BaseTestCase):
     @unpack
 
     def test_Create_DG(self,DGname,DGdesc,DGDB):
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         DG_Create.DG_screenlink(self)

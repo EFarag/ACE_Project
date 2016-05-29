@@ -21,6 +21,7 @@ class test_users(BaseTestCase):
     @unpack
 
     def test_CreateUser(self,first_name,last_name,title,role,user_name,password,re_password, language):
+         self.driver.implicitly_wait(30)
          LoginPage.login(self,'Administrator','P@ssw0rd')
          sleep(2);
          Users.Users_Link(self)
@@ -37,6 +38,7 @@ class test_users(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) +  '\\Data\\Test_Data.xlsx','users'))
     @unpack
     def test_DeleteUser(self,first_name,last_name,title,role,user_name,password,re_password, language):
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(2);
         Users.Users_Link(self)

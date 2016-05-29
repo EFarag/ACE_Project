@@ -45,12 +45,12 @@ class Users():
         self.driver.find_element(*Users.Save_Create_BTN).click()
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    Creation_PopUp_LBL = (By.CSS_SELECTOR, '#ui-id-3')
+    Creation_PopUp_LBL = (By.ID, 'ui-id-3')
     def PopUpAssertion_LBL (self):
         Label_TXT = self.driver.find_element(*Users.Creation_PopUp_LBL).text
         return Label_TXT
 
-    Creation_PopUp_Body= (By.CSS_SELECTOR, '#divConfirm')
+    Creation_PopUp_Body= (By.ID, 'divConfirm')
     def PopUpAssertion_Body (self):
         Body_TXT = self.driver.find_element(*Users.Creation_PopUp_Body).text
         return Body_TXT

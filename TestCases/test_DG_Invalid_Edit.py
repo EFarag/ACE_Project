@@ -17,6 +17,7 @@ class DG_InvalidEdit(BaseTestCase):
 
 
     def test_Invalid_DG_Edit(self):
+         self.driver.implicitly_wait(30)
          LoginPage.login(self,'Administrator','P@ssw0rd')
          sleep(3)
          DG_Create.DG_screenlink(self)

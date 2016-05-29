@@ -17,6 +17,7 @@ class LoginTest(BaseTestCase):
     @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','login'))
     @unpack
     def test_login(self,Username,Password,LoginName):
+       self.driver.implicitly_wait(30)
        LoginPage.clear_Credentials(self)
        LoginPage.login(self,Username,Password)
 

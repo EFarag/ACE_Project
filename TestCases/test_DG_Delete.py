@@ -19,6 +19,7 @@ class test_DGDelete(BaseTestCase):
     @unpack
 
     def test_Delete_DG(self,DGname):
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         DG_Create.DG_screenlink(self)

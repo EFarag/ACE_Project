@@ -13,6 +13,7 @@ import os.path
 
 class Assign_DS(BaseTestCase):
     def test_AssignDS(self):
+        self.driver.implicitly_wait(30)
         LoginPage.login(self,'Administrator','P@ssw0rd')
         sleep(3)
         DG_Create.DG_screenlink(self)

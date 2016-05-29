@@ -15,6 +15,7 @@ class Delete_Dataset(BaseTestCase):
    @data(*read_excel.get_data_from_excel(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)) +  '\Data\Test_Data.xlsx','Datasets_Deletion'))
    @unpack
    def test_DeleteDS(self,DS_name, DS_Code):
+       self.driver.implicitly_wait(30)
        LoginPage.login(self,'Administrator','P@ssw0rd')
        sleep(15)
        Dataset.Dataset_link(self)

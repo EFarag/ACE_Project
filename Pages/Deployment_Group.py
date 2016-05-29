@@ -15,9 +15,7 @@ from DataSource.read_excel import read_excel
 
 @ddt
 class DG_Create():
-    DG_screen = (By.CSS_SELECTOR,
-                 'html.firefox-42 body form#aspnetForm div#wrapper div.home-wrap div.sections div.home-section div#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_div_itemSection.item-section div.item-Wrap a#ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_MenuLink.subsection')
-
+    DG_screen = (By.XPATH,".//*[@id='ctl00_MasterPageContent_rptHomeMenu_ctl01_ctl00_ctl02_div_itemSection']/div")
     def DG_screenlink(self):
         self.driver.find_element(*DG_Create.DG_screen).click()
 
